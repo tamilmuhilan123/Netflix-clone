@@ -1,0 +1,366 @@
+.login{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.745)), url(banner.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-navbar{
+    border: var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-basis: 20%;
+}
+.navbar-logo{
+    border: var(--border-color);
+    width: 200px;
+    height: 80px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.navbar-logo img{
+    width: 100%;
+}
+.navbar-signup-button{
+    border: var(--border-color);
+    padding: 10px;
+    margin-right: 100px;
+}
+.navbar-signup-button select{
+    margin-right: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    letter-spacing: 0px;
+    font-size: 15px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+.navbar-signup-button button{
+    padding: 5px 20px 5px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.login-hero-content{
+    text-align: center;
+    border: var(--border-color);
+    flex-basis: 70%;
+}
+.login-hero-content-main-mainwords{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.login-hero-content-main-second-line{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.login-hero-content-main-third-line{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.login-hero-content-main-input{
+    border: var(--border-color);
+    padding: 10px;
+}
+.login-hero-content-main-input input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #0000007e;
+    border: 2px solid grey;
+    margin-right: 5px;
+    color: white;
+}
+.login-hero-content-main-input button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgba(229, 9, 20, 1);
+    border: rgba(229, 9, 20, 1);
+    width: 200px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login-hero-content-main-input button img{
+    width: 15px;
+}
+.login-page-down-contents{
+    border: var(--border-color);
+}
+.login-page-down-contents-division{
+    border: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.login-page-down-contents-division-one{
+    border: var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.login-page-down-contents-division-one h1{
+    font-size: 48px;
+}
+.login-page-down-contents-division-one p{
+    font-size: 24px;
+}
+.login-page-down-contents-division-two{
+    border: var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.login-page-down-contents-division-two h1{
+    font-size: 48px;
+}
+.login-page-down-contents-division-two p{
+    font-size: 24px;
+}
+.login-page-down-contents-division-three{
+    border: var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.login-page-down-contents-division-three h1{
+    font-size: 48px;
+}
+.login-page-down-contents-division-three p{
+    font-size: 24px;
+}
+.login-page-down-contents-division-four{
+    border: var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.login-page-down-contents-division-four h1{
+    font-size: 48px;
+}
+.login-page-down-contents-division-four p{
+    font-size: 24px;
+}
+.frequently-asked-questions{
+    border: var(--border-color);
+    padding: 20px;
+}
+.questions-heading{
+    border: var(--border-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    border: var(--border-color);
+    padding: 10px;
+    width: 70%;
+}
+.question{
+    font-size: 25px;
+    border: var(--border-color);
+    margin-bottom: 5px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgba(35, 35, 35, 1);
+}
+.question:hover{
+    background-color: rgb(61, 61, 61);
+}
+.answer {
+    background-color: rgb(53, 53, 53);
+    margin-bottom: 15px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 1.5s ease;
+    padding: 0 10px;
+}
+.answer-showing.active .answer {
+    max-height: 300px; 
+    opacity: 1;
+    padding: 10px;
+}
+.footer-get-started-button{
+    border: var(--border-color);
+    text-align: center;
+}
+.footer-get-started-button p{
+    font-size: 20px;
+}
+.footer{
+    border: var(--border-color);
+    margin-bottom: 150px;
+}
+.footer-question{
+    border: var(--border-color);
+    padding: 10px;
+    padding-left: 150px;
+} 
+.footer-question p{
+    color: rgba(151, 151, 151, 1);
+}
+.footer-question p span{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+.footer-list{
+    border: var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.footer-list ul{
+    border: var(--border-color);
+    line-height: 45px;
+}
+.footer-list ul li{
+    color: rgba(151, 151, 151, 1);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
+    border: var(--border-color);
+    width: fit-content;
+}
+.footer-language{
+    border: var(--border-color);
+    padding: 10px;
+    padding-left: 125px;
+}
+.footer-language select{
+    margin-bottom: 25px;
+    padding: 5px;
+    font-weight: 500;
+    width: 110px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-language p{
+    color: rgba(151, 151, 151, 1);
+}
+.signup-container{
+    border: var(--border-color);
+    display: flex;
+    justify-content: center;
+}
+.signup-container-main{
+    border: var(--border-color);
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.201);
+}
+.signup-heading{
+    border: var(--border-color);
+    font-size: 20px;
+    text-align: start;
+    padding: 5px;
+}
+.inputfields{
+    border: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.inputfields input{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+.inputfields input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.signup-container-main button{
+    width: 98%;
+    font-size: 25px;
+    background-color: rgba(229, 9, 20, 1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+.remember{
+    border: var(--border-color);
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.remember input{
+    margin-right: 5px;
+    cursor: pointer;
+}
+.newtoflix{
+    border: var(--border-color);
+    text-align: start;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.newtoflix p{
+    color: rgba(151, 151, 151, 1);
+}
+.newtoflix span{
+    color: white;
+    cursor: pointer;
+}
+.newtoflix span:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.signin-last-line{
+    border: var(--border-color);
+    text-align: start;
+    color: rgba(151, 151, 151, 1);
+}
+.signin-last-line span{
+    color: rgba(0, 71, 255, 1);
+    cursor: pointer;
+}
+.signin-last-line span:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+.forgotpassword{
+    cursor: pointer;
+    border: var(--border-color);
+}
+.forgotpassword:hover{
+    color: rgba(151, 151, 151, 1);
+}
